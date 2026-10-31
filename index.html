@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <style>
-        body, html { margin: 0; padding: 0; overflow: hidden; }
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            -webkit-text-size-adjust: 100%; /* Prevents iOS from auto-resizing text */
+        }
     </style>
 </head>
 <body>
-<iframe src="https://script.google.com/macros/s/AKfycbzES8GjgDbLzsm-H-r0r2wisx708Jy8Mhfkumr1zDz5omzG-Ztpi8EnkMBc7SHKkENf/exec" style="width: 100%; height: 100vh; border: none;"></iframe>
+<iframe src="https://script.google.com/macros/s/AKfycbzES8GjgDbLzsm-H-r0r2wisx708Jy8Mhfkumr1zDz5omzG-Ztpi8EnkMBc7SHKkENf/exec" style="width: 100%; height: 100vh; border: none; display: block;"
+        allow="autoplay; camera; microphone; geolocation;"></iframe>
 </body>
 </html>
